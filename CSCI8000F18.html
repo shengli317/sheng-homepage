@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+  <link rel="stylesheet" href="https://v40.pingendo.com/assets/4.0.0/default/theme.css" type="text/css"> </head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Sheng Li's Homepage</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+		  <li class="nav-item">
+            <a class="nav-link" href="news.html">News</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="publications.html">Publications</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="teaching.html">Teaching</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="activities.html">Activities</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="py-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1 class="">CSCI 8000 (40996): Advanced Topics in Machine Learning
+            <br>Fall 2018&nbsp;</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="py-0">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <p class="lead">
+            <b>Instructor</b>
+            <br> </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="py-0">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <p class="">Dr. Sheng Li&nbsp;
+            <br>E-mail: sheng.li@uga.edu</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <p class="lead">
+            <b>Time and Location of Lectures</b>
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <p class="">TR: 11:00 am - 12:15 pm&nbsp;
+            <br>W: 11:15 am - 12:05 pm
+            <br>Boyd GSRC 306</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <p class="lead">
+            <b>Office Hours and Location </b>
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <p class="">Thursday: 10:00 - 11:00 am or by an email appointment.&nbsp;
+            <br>Boyd GSRC 549 </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <p class="lead">
+            <b>Course Description </b>
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <p class="">The purpose of this course is to familiarize students with several advanced topics in machine learning, including representation learning, multi-view learning, transfer learning, active learning, and counterfactual learning. Real-world applications
+            of these machine learning approaches will also be covered in this course, such as data clustering, image classification, human action recognition, outlier detection, recommendation system, online advertising, etc.&nbsp;
+            <br>
+            <br>This seminar-type course will be research oriented, encouraging students to explore the recent advances in machine learning field. The instructor will review the basic concepts of machine learning and briefly introduce some advanced topics.
+            After that, students will in turn present research papers from the reading materials. In addition, students will need to work on a research project on machine learning theory, methodology, or applications.
+            <br>
+            <br>Please refer to the
+            <a href="Docs/CSCI_8000_Adv_Machine_Learning_Syllabus.pdf" class="text-danger" target="_blank">
+              <b>course syllabus</b>
+            </a> for more details.
+            <br> </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <p class="lead">
+            <b>Paper Review and Presentation</b>
+          </p>
+          <p class="">
+            <b>Note</b> : Please
+            <a href="https://docs.google.com/spreadsheets/d/1umYgEdJhMkKgmX1a-2_KBsFcuIaLoRXtCOJ9crxNlTU/edit#gid=0" class="text-danger" target="_blank">sign up</a> for paper review and presentations. (
+            <b>Deadline</b>: 11:59pm, Aug. 19)</p>
+          <p class="">
+            <b>Paper Review:</b> Students will be required to read
+            <b>10 papers</b> from the reading list and submit a brief review of each paper to the instructor
+            <u>by midnight (12:00am) before the scheduled lecture</u>. The 10 papers should
+            <b>not</b> contain the paper you’re going to present in the class. The review should summarize the main idea and contributions of the paper, describe the major experimental results, and discuss the strengths and weaknesses of the paper. The students
+            are also encouraged to check the follow-up works on the topic of the assigned paper (e.g., search the latest papers that cite the assigned paper), summarize the state-of-the-art methods and results, and discuss their limitations and possible
+            future research directions.</p>
+          <p class="">
+            <b>Pape Presentation</b>:&nbsp;Each student will be required to present one research paper over the semester. Each presenter should prepare slides for a
+            <b>30-40 minutes talk</b> on the paper.
+            <u>Slides for the talk must be emailed to the instructor by midnight (12:00am) before the class</u>. The talk should clearly address the following points: (1) motivation and problem statement; (2) related work; (3) methodology; (4) experiments;
+            (4) conclusions; and (5) discussions. The presenter will need to lead another
+            <b>10-20 minutes discussion </b>during or after the talk. The presenter should prepare discussion questions that lead to a deeper analysis of the paper’s content, strengths, weaknesses, and future works.</p>
+          <p class="lead text-secondary">
+            <b>Class Schedule (Tentative)</b>
+          </p>
+          <table class="table">
+            <thead>
+              <tr>
+                <th class="">Week</th>
+                <th class="">Date</th>
+                <th>Topic</th>
+                <th>Paper</th>
+                <th>Presenter</th>
+                <th>Notes</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>08/14 (T)</td>
+                <td>Course Overview</td>
+                <td>N/A</td>
+                <td>Instructor</td>
+                <td>[<a href="Docs/CSCI_8000_Adv_ML_Lecture_1.pdf" target="_blank" class="text-secondary">Slides</a>]</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>08/15 (W)</td>
+                <td>An Overview of Machine Learning</td>
+                <td>N/A</td>
+                <td>Instructor</td>
+                <td>[<a href="Docs/CSCI_8000_Adv_ML_Lecture_2.pdf" target="_blank" class="text-secondary">Slides</a>]</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>08/16 (R)</td>
+                <td>An Overview of Deep Learning</td>
+                <td>N/A</td>
+                <td>Instructor</td>
+                <td>[<a href="Docs/CSCI_8000_Adv_ML_Lecture_3.pdf" target="_blank" class="text-secondary">Slides</a>]</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>08/21 (T)</td>
+                <td>Dimensionality Reduction Unsupervised Learning</td>
+                <td>
+                  <a href="http://cis.jhu.edu/~ehsan/Downloads/SMCE-NIPS11-Ehsan.pdf" class="text-secondary" target="_blank">Sparse Manifold Clustering and Embedding </a>(NIPS 2011)</td>
+                <td>Instructor</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>08/22 (W)</td>
+                <td>Unsupervised Learning</td>
+                <td>
+                  <a href="https://lvdmaaten.github.io/publications/papers/JMLR_2014.pdf" class="text-secondary" target="_blank">Accelerating t-SNE using Tree-Based Algorithms</a> (JMLR, 2014)</td>
+                <td>Weifeng Wang</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>08/23 (R)</td>
+                <td>Unsupervised Learning</td>
+                <td>
+                  <a href="https://ieeexplore.ieee.org/document/7873333/" class="text-secondary" target="_blank">Clustering Millions of Faces by Identity</a> (IEEE Trans. PAMI, 2018)</td>
+                <td>Marcus Hill</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>08/28 (T)</td>
+                <td>Unsupervised Learning&nbsp;
+                  <br>Information Theory</td>
+                <td>
+                  <a href="https://arxiv.org/pdf/1711.00464.pdf" target="_blank" class="text-secondary">Fixing a broken ELBO </a>(ICML'18)</td>
+                <td>Bahaa</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>08/29 (W)</td>
+                <td>Multi-view Learning</td>
+                <td class="">
+                  <a href="http://ttic.uchicago.edu/~klivescu/papers/chaudhuri_ICML09.pdf" class="text-secondary" target="_blank">Multi-View Clustering via Canonical Correlation Analysis</a> (ICML 2009)&nbsp;
+                  <br>
+                  <a href="https://ieeexplore.ieee.org/document/7072521/" target="_blank" class="text-secondary">Multi-View Intact Space Learning</a> (IEEE Trans. PAMI, 2015)</td>
+                <td>Instructor</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>08/30 (R)</td>
+                <td>Multi-view Learning</td>
+                <td>
+                  <a href="http://proceedings.mlr.press/v48/podosinnikova16.pdf" class="text-secondary" target="_blank">Beyond CCA: Moment Matching for Multi-View Models</a> (ICML 2016)</td>
+                <td>Instructor</td>
+                <td>[<a href="Docs/CSCI_8000_Course_Project.pdf" target="_blank" class="text-secondary">Course Project</a>]</td>
+              </tr>
+              <tr>
+                <td>4</td>
+                <td>09/04 (T)</td>
+                <td>Transfer Learning</td>
+                <td>
+                  <a href="http://proceedings.mlr.press/v37/romera-paredes15.pdf" class="text-secondary" target="_blank">An embarrassingly simple approach to zero-shot learning</a> (ICML 2015)</td>
+                <td>Instructor</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>09/05 (W)</td>
+                <td>Transfer Learning</td>
+                <td>
+                  <a href="http://ozansener.net/papers/domain_transduction.pdf" class="text-secondary" target="_blank">Learning Transferrable Representations for Unsupervised Domain Adaptation</a> (NIPS 2016)</td>
+                <td>Sili Wang</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>09/06 (R)</td>
+                <td>Transfer Learning</td>
+                <td>
+                  <a href="http://proceedings.mlr.press/v80/wei18a/wei18a.pdf" class="text-secondary" target="_blank">Transfer Learning via Learning to Transfer</a> (ICML 2018)</td>
+                <td>Instructor</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>5</td>
+                <td>09/11 (T)</td>
+                <td>Deep Learning for Computer Vision</td>
+                <td>
+	                <a href="http://openaccess.thecvf.com/content_ICCV_2017/papers/Zhu_Unpaired_Image-To-Image_Translation_ICCV_2017_paper.pdf" class="text-secondary" target="_blank">Unpaired image-to-image translation using cycle-consistent adversarial networks</a> (ICCV 2017)</td>
+	                <td>Instructor</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>09/12 (W)</td>
+                <td>Deep Learning for Computer Vision</td>
+                <td>
+                  <a href="http://openaccess.thecvf.com/content_cvpr_2017/papers/Huang_Densely_Connected_Convolutional_CVPR_2017_paper.pdf" class="text-secondary" target="_blank">Densely Connected Convolutional Networks</a> (CVPR 2017)</td>
+                <td>Zahra Jandaghi</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>09/13 (R)</td>
+                <td>Deep Learning for Computer Vision</td>
+                <td>
+	                <a href="https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf" class="text-secondary" target="_blank">Deep Residual Learning for Image Recognition</a> (CVPR 2016)</td>
+	                <td>Abolfazl Farahani</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>6</td>
+                <td>09/18 (T)</td>
+                <td>Deep Learning for Computer Vision</td>
+                <td>
+                  <a href="https://ieeexplore.ieee.org/abstract/document/7505636/" class="text-secondary" target="_blank">Show and Tell: Lessons Learned from the 2015 MSCOCO Image Captioning Challenge</a> (IEEE Trans. PAMI, 2017)</td>
+                <td>Instructor</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>09/19 (W)</td>
+                <td>Deep Learning for Computer Vision</td>
+                <td>
+                  <a href="http://openaccess.thecvf.com/content_cvpr_2017/papers/Dai_Detecting_Visual_Relationships_CVPR_2017_paper.pdf" class="text-secondary" target="_blank">Detecting Visual Relationships with Deep Relational Networks</a> (CVPR 2017)</td>
+                <td>Instructor</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>09/20 (R)</td>
+                <td>Guest Lecture</td>
+                <td>N/A</td>
+                <td> <a href="https://www.cc.gatech.edu/~jlu347/" class="text-secondary" target="_blank">Jiasen Lu</a> (Georgia Tech)</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>7</td>
+                <td>09/25 (T)</td>
+                <td>Project Proposal Presentation (I)</td>
+                <td>N/A</td>
+                <td>Students</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>09/26 (W)</td>
+                <td>Project Proposal Presentation (II)</td>
+                <td>N/A</td>
+                <td>Students</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>09/27 (R)</td>
+                <td>Project Proposal Presentation (III)</td>
+                <td>N/A</td>
+                <td>Students</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>8</td>
+                <td>10/02 (T)</td>
+                <td>Deep Learning for NLP</td>
+                <td class="">
+                  <a href="https://nlp.stanford.edu/pubs/glove.pdf" class="text-secondary" target="_blank">GloVe: Global Vectors for Word Representation</a>&nbsp;(EMNLP 2014) [Presentation]
+                  <br>
+                  <a href="https://papers.nips.cc/paper/5346-sequence-to-sequence-learning-with-neural-networks.pdf" target="_blank" class="text-secondary">Sequence to Sequence Learning with Neural Networks</a> (NIPS 2014) [Discussion only]
+                  <br>
+                </td>
+                <td>Xuan Zhang</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>10/03 (W)</td>
+                <td>Deep Learning for NLP</td>
+                <td>
+                  <a href="http://proceedings.mlr.press/v48/kumar16.pdf" target="_blank" class="text-secondary">Ask Me Anything: Dynamic Memory Networks for Natural Language Processing</a> (ICML 2016)</td>
+                <td>Saber Soleymani</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>10/04 (R)</td>
+                <td>Deep Learning for NLP</td>
+                <td class="">
+                  <a href="https://papers.nips.cc/paper/5782-character-level-convolutional-networks-for-text-classification.pdf" class="text-secondary" target="_blank">Character-level Convolutional Networks for Text Classification</a> (NIPS 2015)</td>
+                <td>Aishwarya Jagtap</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>9</td>
+                <td>10/09 (T)</td>
+                <td>Deep Learning for NLP</td>
+                <td class="">
+                  <a href="https://papers.nips.cc/paper/7181-attention-is-all-you-need.pdf" class="text-secondary" target="_blank">Attention Is All You Need</a> (NIPS 2017)&nbsp;[Presentation]
+                  <br>
+                  <a href="https://www.microsoft.com/en-us/research/wp-content/uploads/2017/02/A_Knowledge_Grounded_Neural_Conversation_Model.pdf" target="_blank" class="text-secondary">A Knowledge-Grounded Neural Conversation Model</a>&nbsp;(AAAI 2018) [Discussion only]</td>
+                <td>Dharamendra Kumar</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>10/10 (W)</td>
+                <td>Deep Learning for User Modeling</td>
+                <td>
+                  <a href="https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/frp1159-songA.pdf" target="_blank" class="text-secondary">A Multi-View Deep Learning Approach for Cross Domain User Modeling in Recommendation Systems</a> (WWW 2015) &nbsp;</td>
+                <td>Mohammad al-Saad</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>10/11 (R)</td>
+                <td>Deep Learning for User Modeling</td>
+                <td>
+                  <a href="http://alexbeutel.com/papers/wsdm2018_latent_cross.pdf" target="_blank" class="text-secondary">Latent Cross: Making Use of Context in Recurrent Recommender Systems</a> (WSDM 2018) [Presentation]
+                  <br>
+                  <a href="https://www.comp.nus.edu.sg/~xiangnan/papers/ncf.pdf" target="_blank" class="text-secondary">Neural Collaborative Filtering</a> (WWW 2017) [Discussion only]</td>
+                <td>Yuhua Shi</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>10</td>
+                <td>10/16 (T)</td>
+                <td>Network Representation&nbsp;</td>
+                <td>
+                  <a href="http://www.perozzi.net/publications/14_kdd_deepwalk.pdf" target="_blank" class="text-secondary">DeepWalk: Online Learning of Social Representations</a> (KDD '14) [Presentation]<br>
+                  <a href="http://www.www2015.it/documents/proceedings/proceedings/p1067.pdf" target="_blank" class="text-secondary">LINE: Large-scale Information Network Embedding</a> (WWW '15) [Discussion only] </td>
+                <td>Saed Rezayi</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>10/17 (W)</td>
+                <td>Network Representation&nbsp;</td>
+                <td>
+                  <a href="https://cs.stanford.edu/people/jure/pubs/node2vec-kdd16.pdf" target="_blank" class="text-secondary">node2vec: Scalable Feature Learning for Networks</a> (KDD '16)</td>
+                <td>Sumer Singh</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>10/18 (R)</td>
+                <td>Guest Lecture</td>
+                <td><a href="https://arxiv.org/abs/1505.02463" target="_blank" class="text-secondary">A Survey on Truth Discovery</a> (ACM SIGKDD Explorations)<br>
+								<a href="https://arxiv.org/abs/1809.10404" target="_blank" class="text-secondary">When Truth Discovery Meets Medical Knowledge Graph: Estimating Trustworthiness Degree for Medical Knowledge Condition</a> (arXiv)
+								</td>
+                <td><a href="https://sites.google.com/site/yaliangli/" class="text-secondary" target="_blank">Dr. Yaliang Li</a> (Tencent America)</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>11</td>
+                <td>10/23 (T)</td>
+                <td>Graph Convolutional Networks</td>
+                <td>
+                  <a href="https://openreview.net/pdf?id=SJU4ayYgl" class="text-secondary" target="_blank">Semi-Supervised Classification with Graph Convolutional Networks</a> (ICLR 2017)</td>
+                <td>Xiaodong Jiang</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>10/24 (W)</td>
+                <td>Graph Convolutional Networks</td>
+                <td>
+                  <a href="https://papers.nips.cc/paper/6703-inductive-representation-learning-on-large-graphs.pdf" class="text-secondary" target="_blank">Inductive representation learning on large graphs</a> (NIPS 2017)</td>
+                <td>An Chen</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>10/25 (R)</td>
+                <td>Graph Convolutional Networks</td>
+                <td>
+                  <a href="https://openreview.net/pdf?id=rJXMpikCZ" class="text-secondary" target="_blank">Graph Attention Networks</a> (ICLR 2018)</td>
+                <td>Yang Shi</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>12</td>
+                <td>10/30 (T)</td>
+                <td>Adversarial Training</td>
+                <td>
+                  <a href="https://arxiv.org/pdf/1511.06434.pdf" class="text-secondary" target="_blank">Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks</a> (arXiv, 2015)</td>
+                <td>Jiaqi Wang</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>10/31 (W)</td>
+                <td>Adversarial Training</td>
+                <td contenteditable="true">
+                  <a href="http://proceedings.mlr.press/v70/arjovsky17a/arjovsky17a.pdf" class="text-secondary" target="_blank">Wasserstein Generative Adversarial Networks</a>&nbsp;(ICML 2017)</td>
+                <td>Ankita Joshi</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>11/01 (R)</td>
+                <td>Adversarial Training</td>
+                <td>
+                  <a href="https://ieeexplore.ieee.org/abstract/document/8417973/" class="text-secondary" target="_blank">Virtual adversarial training: a regularization method for supervised and semi-supervised learning</a> (IEEE Trans. PAMI, 2018)</td>
+                <td>Jiaojiao Wang</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>13</td>
+                <td>11/06 (T)</td>
+                <td>Neural Architecture Search</td>
+                <td>
+                  <a href="https://arxiv.org/pdf/1611.01578.pdf" target="_blank" class="text-secondary">Neural Architecture Search with Reinforcement Learning</a> (ICLR 2017)</td>
+                <td>Ailing Wang&nbsp;</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>11/07 (W)</td>
+                <td>Course Project--Status Update</td>
+                <td>TBA</td>
+                <td>Students</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>11/08 (R)</td>
+                <td>Neural Architecture Search</td>
+                <td>
+                  <a href="https://arxiv.org/pdf/1712.00559.pdf" target="_blank" class="text-secondary">Progressive Neural Architecture Search</a> (ECCV 2018)</td>
+                <td>Xingchen Jian</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>14</td>
+                <td>11/13 (T)</td>
+                <td>Machine Learning Meets Causal Inference</td>
+                <td>TBA</td>
+                <td>Instructor</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>11/14 (W)</td>
+                <td>Machine Learning for Healthcare</td>
+                <td>TBA</td>
+                <td>Instructor</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>11/15 (R)</td>
+                <td>Guest Lecture</td>
+                <td>Reinforcement Learning and Inverse Reinforcement Learning</td>
+                <td><a href="http://thinc.cs.uga.edu/personnel.html" class="text-secondary" target="_blank">Prof.&nbsp;Prashant Doshi</a> (UGA)</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>15</td>
+                <td>11/20 (T)</td>
+                <td class="text-danger">
+                  <strike>No Class; Thanksgiving Break</strike>
+                </td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>11/21 (W)</td>
+                <td class="text-danger">
+                  <strike>No Class; Thanksgiving Break</strike>
+                </td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>11/22 (R)</td>
+                <td class="text-danger">
+                  <strike>No Class; Thanksgiving Break</strike>
+                </td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>16</td>
+                <td>11/27 (T)</td>
+                <td>Interpretable Machine Learning</td>
+                <td>TBA</td>
+                <td>Instructor</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>11/28 (W)</td>
+                <td>Course Project--Final Presentation (I)</td>
+                <td>N/A</td>
+                <td>Students</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>11/29 (R)</td>
+                <td>Course Project--Final Presentation (II)</td>
+                <td>N/A</td>
+                <td>Students</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>17</td>
+                <td>12/04 (T)</td>
+                <td>Course Project--Final Presentation (III)</td>
+                <td>N/A</td>
+                <td>Students</td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+
+</html>

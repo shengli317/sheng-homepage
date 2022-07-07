@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+  <link rel="stylesheet" href="https://v40.pingendo.com/assets/4.0.0/default/theme.css" type="text/css"> </head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Sheng Li's Homepage</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+		  <li class="nav-item">
+            <a class="nav-link" href="news.html">News</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="publications.html">Publications</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="teaching.html">Teaching</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="activities.html">Activities</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="py-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-10">
+          <h3><strong>CSCI 8945: Advanced  Representation Learning 
+            (Fall 2021) </strong></h3>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="py-0">
+    <div class="container">
+	<div class="row">
+		<font size="4">
+		<table class="table">
+            <tbody>
+              <tr>
+                <td><strong>Instructor</strong></td>
+                <td>Sheng Li <br>
+                E-mail: sheng.li@uga.edu</td>
+              </tr>
+			  <tr>
+                <td><strong>Time and Location of Lecture</strong></td>
+                <td>Online. The Zoom link is avaialble on eLC website.</td>
+				
+              </tr>
+			  <tr>
+                <td><strong>Office Hours</strong></td>
+                <td>By email appointment.</td>
+              </tr>
+			  
+				<tr><td></td><td></td></tr>
+			</tbody>
+		</table>
+		</font>
+      </div>
+	  <div class="row">
+		<div class="col-md-12">
+          <p class="lead"> <strong>Course Description </strong> </p>
+        </div>
+	  </div>
+      <div class="row">
+        <div class="col-md-12">
+          <p class="">This course presents a rigorous overview of advanced representation learning algorithms in machine learning, from the traditional subspace learning models to the recent deep representation learning models. Applications in the fields of computer vision, data mining, and natural language processing will be covered. 
+          <br>
+          <br>Please refer to the
+          <a href="Docs/CSCI_8945_AdvRL_Syllabus_F21.pdf" class="text-danger" target="_blank">
+            <b>course syllabus</b>
+          </a> for more details.
+          </p>
+        </div>
+      </div>
+	  <div class="row">
+		<div class="col-md-12">
+          <p class="lead"> <strong>Required Prerequisite </strong> </p>
+        </div>
+	  </div>
+      <div class="row">
+        <div class="col-md-12">
+          <p class="">CSCI 6380 (Data Mining), CSCI 6550 (Artificial Intelligence) or Permission of Department
+          </p>
+        </div>
+      </div>
+	  <div class="row">
+        <div class="col-md-12">
+          <p class="lead">
+            <b>Grading</b>
+          </p>
+        </div>
+      </div>
+	  <div class="row">
+        <div class="col-md-12">
+          <table width="969" height="231" border="1">
+            <tbody>
+              <tr>
+                <th scope="col">Section</th>
+                <th scope="col">Portion</th>
+                <th scope="col">Description</th>
+              </tr>
+              <tr>
+                <td>Paper Review</td>
+                <td>30%</td>
+                <td>Write comprehensive paper reviews for assigned papers</td>
+              </tr>
+              <tr>
+                <td>Paper Presentation</td>
+                <td>20%</td>
+                <td>Present assigned papers and lead discussion</td>
+              </tr>
+              <tr>
+                <td>Team Project</td>
+                <td>50%</td>
+                <td>Project proposal (10%); Progress review (10%); Final presentation and report (30%)</td>
+              </tr>
+            
+            </tbody>
+          </table>
+			<p></p>
+		
+	  <div class="row">
+        <div class="col-md-12">
+          <p class="lead">
+            <b>Academic Honesty</b>
+          </p>
+        </div>
+      </div>
+	  <div class="row">
+        <div class="col-md-12">
+          <p class="">We will strictly follow <a href="https://honesty.uga.edu/Academic-Honesty-Policy/Introduction/" class="text-danger" target="_blank">UGA’s Academic Honesty Policy</a>. Dishonest behavior will not be tolerated and may result into failing the course. Please contact the instructor if you have any concerns regarding this issue.</p>
+        </div>
+      </div>
+	  <div class="row">
+        <div class="col-md-12">
+          <p class="lead">
+            <b>Paper Review and Presentation</b>
+          </p>
+        </div>
+      </div>
+	  <div class="row">
+        <div class="col-md-12">
+			<p class=""><b>Note:</b> Please <a href="https://docs.google.com/spreadsheets/d/1sh6Bt2GwaIH3DrRvcUjth2zJB4PgNlBaDeUzRPOxRJs/edit?usp=sharing" class="text-danger" target="_blank">sign up</a> for paper presentations (Deadline: 11:59PM, August 24, 2021)</p>
+          <p class=""><b>Paper Review:</b> Students will be required to review <b>6 papers</b> (ONE paper from each topic) over the semester and submit the reviews to eLC by <b>11:59PM of the due date</b> shown on class schedule below. The reviewed paper should be chosen from the papers that will be presented in the following classes (Check class schedule for more details). The reviewed papers should <b>not</b> contain the papers you’re going to present in the class. The review should summarize the main idea and contributions of the paper, describe the major experimental results, and discuss the strengths and weaknesses of the paper. The students are also encouraged to check the follow-up work on the topic of the assigned paper (e.g., search the latest papers that cite the assigned paper), summarize the state-of-the-art methods and results, and discuss possible future research directions.</p>
+          <p class="">
+            <b>Paper Presentation</b>:&nbsp;Each student will be required to present <b>two</b> research papers over the semester. Each presenter should prepare slides for a <b>30 minutes talk</b> on the paper. <u>Recordings of the talk must be submitted to eLC by midnight (12:00AM) before the class</u>. The talk should clearly address the following points: (1) motivation and problem statement; (2) related work; (3) methodology; (4) experiments; (4) conclusions; and (5) at least 3 questions for discussion. The presenter will also need to lead discussions on eLC.</p>
+        </div>
+      </div>
+		
+       <div class="row">
+        <div class="col-md-12">
+          <p class="lead">
+            <b>Class Schedule (Tentative)</b>
+          </p>
+		</div>
+      </div>
+	  <div class="row">
+        <div class="col-md-12">
+          <table class="table">
+            <thead>
+              <tr>
+                <th class="">Week</th>
+                <th class="">Date</th>
+                <th>Topic</th>
+                <th>Lecture/Papers</th>
+                <th>Presenters</th>
+                <th>Notes</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>08/18 (W)</td>
+                <td>Course Overview</td>
+                <td>Lecture</td>
+                <td>Instructor</td>
+                <td></td>
+			  </tr>
+			  
+			  <tr>
+                <td></td>
+                <td>08/19 (R)</td>
+                <td>A Brief Overview of Machine Learning (I)</td>
+                <td>Lecture</td>
+                <td>Instructor</td>
+                <td></td>
+              </tr>
+			  
+              <tr>
+                <td>2</td>
+                <td>08/24 (T)</td>
+                <td>A Brief Overview of Machine Learning (II)</td>
+                <td>Lecture</td>
+                <td>Instructor</td>
+                <td></td>
+              </tr>
+			  
+              <tr>
+                <td></td>
+                <td>08/25 (W)</td>
+                <td>Neural Networks and Deep Learning (I)</td>
+                <td>Lecture</td>
+                <td>Instructor</td>
+                <td></td>
+              </tr>
+			  
+              <tr>
+                <td></td>
+                <td>08/26 (R)</td>
+                <td>Neural Networks and Deep Learning (II)</td>
+                <td>Lecture</td>
+                <td>Instructor</td>
+                <td></td>
+              </tr>
+			  
+              <tr>
+                <td>3</td>
+                <td>08/31 (T)</td>
+                <td>Deep Auto-Encoders</td>
+                <td>(1) Extracting and composing robust features with denoising autoencoders, ICML 2008<br>(2) k-Sparse Autoencoders, ICLR 2014</td>
+                <td>Students</td>
+                <td><b>Review-1 Due</b> for ONE paper on deep auto-encoders.</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>09/01 (W)</td>
+                <td>Deep Auto-Encoders</td>
+                <td>(1) Contractive Auto-Encoders: Explicit Invariance During Feature Extraction, ICML 2011<br>(2) Semi-Supervised Recursive Autoencoders for Predicting Sentiment Distributions, EMNLP 2011</td>
+                <td>Students</td>
+                <td></td>
+              </tr>
+			  
+              <tr>
+                <td></td>
+                <td>09/02 (R)</td>
+                <td>Deep Auto-Encoders</td>
+                <td>(1) Auto-Encoding Variational Bayes, ICLR 2014<br>(2)Adversarial Auto-Encoders, 2016</td>
+	                <td>Students</td>
+                <td></td>
+              </tr>
+			  
+              <tr>
+                <td>4</td>
+                <td>09/07 (T)</td>
+                <td>Deep Auto-Encoders</td>
+                <td>(1) Semantic Autoencoder for Zero-Shot Learning, CVPR 2017<br>(2) Variational Autoencoders for Collaborative Filtering, WWW 2018<br>(3) TearingNet: Point Cloud Autoencoder to Learn Topology-Friendly Representations, CVPR 2021</td>
+                <td>Students</td>
+                <td><b>Paper discussions on Zoom, for papers presented in Week 3.</b></td>
+              </tr>
+			  
+              <tr>
+                <td></td>
+                <td>09/08 (W)</td>
+                <td>Convolutional Networks</td>
+                <td>(1) ImageNet Classification with Deep Convolutional Neural Networks, NIPS 2012<br>(2) Very deep convolutional networks for large-scale image recognition, ICLR 2015</td>
+	            <td>Students</td>
+                <td><b>Review-2 Due</b> for ONE paper on convolutional networks.</td>
+              </tr>
+			  
+              <tr>
+                <td></td>
+                <td>09/09 (R)</td>
+                <td>Convolutional Networks</td>
+                <td>(1) Going Deeper with Convolutions, CVPR 2015<br>(2) Deep Residual Learning for Image Recognition, CVPR 2016</td>
+                <td>Students</td>
+                <td></td>
+              </tr>
+			  
+              <tr>
+                <td>5</td>
+                <td>09/14 (T)</td>
+                <td>Convolutional Networks</td>
+                <td>(1) Densely Connected Convolutional Networks, CVPR 2017<br>(2) Res2Net: A New Multi-scale Backbone Architecture, IEEE TPAMI, 2019<br>(3) Deep Convolutional Neural Networks for Human Action Recognition Using Depth Maps and Postures</td>
+                <td>Students</td>
+                <td><b>Paper discussions on Zoom, for papers presented in Week 4.</b></td>
+              </tr>
+			  
+              <tr>
+                <td></td>
+                <td>09/15 (W)</td>
+                <td>Convolutional Networks</td>
+                <td>(1) Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks, NIPS 2015<br>(2) Mask R-CNN, ICCV 2017<br>(3) You Only Look Once: Unified, Real-Time Object Detection, CVPR 2016</td>
+                <td>Students</td>
+                <td></td>
+              </tr>
+			  
+              <tr>
+                <td></td>
+                <td>09/16 (R)</td>
+                <td>Convolutional Networks</td>
+                <td>(1) Learning Spatiotemporal Features with 3D Convolutional Networks, ICCV 2015<br>(2) Xnor-net: Imagenet classification using binary convolutional neural networks, ECCV 2016<br>(3) Two Routes to Scalable Credit Assignment without Weight Symmetry</td>
+                <td>Students</td>
+                <td></td>
+              </tr>
+			  
+              <tr>
+                <td>6</td>
+                <td>09/21 (T)</td>
+                <td>Recurrent Networks</td>
+                <td>An Overview of Recurrent Neural Networks (Lecture)</td>
+                <td>Instructor</td>
+                <td><b>Paper discussions on Zoom, for papers presented in Week 5.</b></td>
+              </tr>
+			  
+              <tr>
+                <td></td>
+                <td>09/22 (W)</td>
+                <td>Recurrent Networks</td>
+                <td>(1) Bidirectional recurrent neural networks, IEEE Trans. Signal Processing, 1997<br>(2) Wavenet: a generative model for raw audio<br>(3) How to Construct Deep Recurrent Neural Networks</td>
+                <td>Students</td>
+                <td><b>Review-3 Due</b> for ONE paper on recurrent networks.</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>09/23 (R)</td>
+                <td>Recurrent Networks</td>
+                <td>(1) Learning Phrase Representations using RNN Encoder–Decoder for Statistical Machine Translation, EMNLP 2014<br>(2) Hierarchical Attention Networks for Document Classification, ACL 2016</td>
+                <td>Students</td>
+                <td></td>
+              </tr>
+			  
+              <tr>
+                <td>7</td>
+                <td>09/28 (T)</td>
+                <td>Recurrent Networks</td>
+                <td>(1) Relational recurrent neural networks, NeurIPS 2018<br>(2) End-To-End Memory Networks, NIPS 2015<br>(3) Disconnected Recurrent Neural Networks for Text Categorization, ACL 2018</td>
+                <td>Students</td>
+                <td><b>Paper discussions on Zoom, for papers presented in Week 6.</b></td>
+              </tr>
+			  
+              <tr>
+                <td></td>
+                <td>09/29 (W)</td>
+                <td>Recurrent Networks</td>
+                <td>(1) Long-Term Recurrent Convolutional Networks for Visual Recognition and Description, IEEE Trans. PAMI, 2016<br>(2) Attention Is All You Need, NIPS 2017<br>(3) Disentangled Item Representation for Recommender Systems</td>
+                <td>Students</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>09/30 (R)</td>
+                <td>Recurrent Networks</td>
+                <td><br>(1) Understanding and Controlling Memory in Recurrent Neural Networks, ICML 2019<br>(2) Unsupervised Learning of Video Representations using LSTMs, 2015<br>(3) Training Recurrent Neural Networks via Forward Propagation Through Time, ICML 2021.</td>
+                <td>Students</td>
+                <td></td>
+              </tr>
+			  
+              <tr>
+                <td>8</td>
+                <td>10/05 (T)</td>
+                <td>Project Proposal Presentation (I)</td>
+                <td>N/A</td>
+                <td>Students</td>
+                <td></td>
+              </tr>
+			  
+              <tr>
+                <td></td>
+                <td>10/06 (W)</td>
+                <td>Project Proposal Presentation (II)</td>
+                <td>N/A</td>
+                <td>Students</td>
+                <td></td>
+              </tr>
+			  
+              <tr>
+                <td></td>
+                <td>10/07 (R)</td>
+                <td>Project Proposal Presentation (III)</td>
+                <td>N/A</td>
+                <td>Students</td>
+                <td></td>
+              </tr>
+              
+              <tr>
+                <td>9</td>
+                <td>10/12 (T)</td>
+                <td>Adversarial Learning</td>
+                <td>An Overview of Adversarial Machine Learning (Lecture)</td>
+                <td>Instructor</td>
+                <td><b>Paper discussions on Zoom, for papers presented in Week 7.</b></td>
+              </tr>
+			  
+              <tr>
+                <td></td>
+                <td>10/13 (W)</td>
+                <td>Adversarial Learning</td>
+                <td>(1) Generative Adversarial Nets, NIPS 2014<br>(2) Image-to-Image Translation with Conditional Adversarial Networks, CVPR 2017<br>(3) InfoGAN: Interpretable Representation Learning by Information Maximizing Generative Adversarial Nets, NIPS 2016</td>
+                <td>Students</td>
+                <td><b>Review-4 Due</b> for ONE paper on adversarial learning.</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>10/14 (R)</td>
+                <td>Adversarial Learning</td>
+                <td>(1) Unsupervised representation learning with deep convolutional generative adversarial networks, ICLR 2016<br>(2) Wasserstein Generative Adversarial Networks, ICML 2017<br>(3) Adversarially Adaptive Normalization for Single Domain Generalization, CVPR 2021</td>
+                <td>Students</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>10</td>
+                <td>10/19 (T)</td>
+                <td>Adversarial Learning</td>
+                <td>(1) Distributional Smoothing with Virtual Adversarial Training, ICLR 2016<br>(2) Adversarial Training Methods for Semi-Supervised Text Classification, ICLR 2017</td>
+                <td>Students</td>
+                <td><b>Paper discussions on Zoom, for papers presented in Week 9.</b></td>
+              </tr>
+			  
+              <tr>
+                <td></td>
+                <td>10/20 (W)</td>
+                <td>Adversarial Learning</td>
+                <td>(1) Defense-gan: Protecting classifiers against adversarial attacks using generative models, ICLR 2018<br>(2) Towards Diverse and Natural Image Descriptions via a Conditional GAN, ICCV 2017<br>(3) Accurate 2D soft segmentation of medical image via SoftGAN network</td>
+                <td>Students</td>
+                <td></td>
+              </tr>
+			  
+              <tr>
+                <td></td>
+                <td>10/21 (R)</td>
+                <td>Adversarial Learning</td>
+                <td>(1) Coupled Generative Adversarial Networks, NIPS 2016<br>(2) Spectral Normalization for Generative Adversarial Networks, ICLR 2018<br>(3) Adversarial Discriminative Domain Adaptation, CVPR 2017.</td>
+                <td>Students</td>
+                <td></td>
+              </tr>
+             
+              <tr>
+                <td>11</td>
+                <td>10/26 (T)</td>
+                <td>Graph Neural Networks</td>
+                <td>An Overview of Graph Neural Networks (Lecture)</td>
+                <td>Instructor</td>
+                <td><b>Paper discussions on Zoom, for papers presented in Week 10.</b></td>
+              </tr>
+			  
+              <tr>
+                <td></td>
+                <td>10/27 (W)</td>
+                <td>Graph Neural Networks</td>
+                <td>(1) Convolutional neural networks on graphs with fast localized spectral filtering, NIPS 2016<br>(2) Semi-Supervised Classification with Graph Convolutional Networks, ICLR 2017</td>
+                <td>Students</td>
+                <td><b>Review-5 Due</b> for ONE paper on graph neural networks.</b></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>10/28 (R)</td>
+                <td>Graph Neural Networks</td>
+                <td>(1) Dual Graph Convolutional Networks for Graph-Based Semi-Supervised Classification, WWW 2018<br>(2) Inductive Representation Learning on Large Graphs, NIPS 2017<br>(3) Skeleton-Based Action Recognition with Directed Graph Neural Networks</td>
+                <td>Students</td>
+                <td></td>
+              </tr>
+			  
+              <tr>
+                <td>12</td>
+                <td>11/02 (T)</td>
+                <td>Project Update and Discussion (I)</td>
+                <td> </td>
+                <td>Students</td>
+                <td></td>
+              </tr>
+			  
+              <tr>
+                <td></td>
+                <td>11/03 (W)</td>
+                <td>Project Update and Discussion (II)</td>
+                <td> </td>
+                <td>Students</td>
+                <td></td>
+              </tr>
+			  
+              <tr>
+                <td></td>
+                <td>11/04 (R)</td>
+                <td>Project Update and Discussion (III)</td>
+                <td> </td>
+                <td>Students</td>
+                <td></td>
+              </tr>
+			  
+              <tr>
+                <td>13</td>
+                <td>11/09 (T)</td>
+                <td>Graph Neural Networks</td>
+                <td>(1) Cluster-GCN: An Efficient Algorithm for Training Deep and Large Graph Convolutional Networks, KDD 2019<br>(2) Hierarchical Graph Representation Learning with Differentiable Pooling, NeurIPS 2018<br>(3) Binary Graph Neural Networks, CVPR 2021</td>
+                <td>Students</td>
+                <td><b>Paper discussions on Zoom, for papers presented in Week 11.</b></td>
+              </tr>
+			  
+              <tr>
+                <td></td>
+                <td>11/10 (W)</td>
+                <td>Graph Neural Networks</td>
+                <td>(1) GraphRNN: Generating Realistic Graphs with Deep Auto-regressive Models, ICML 2018<br>(2) Simplifying Graph Convolutional Networks, ICML 2019</td>
+                <td>Students</td>
+                <td></td>
+              </tr>
+			  
+              <tr>
+                <td></td>
+                <td>11/11 (R)</td>
+                <td>Graph Neural Networks</td>
+                <td>(1) Explainability Methods for Graph Convolutional Neural Networks, CVPR 2019<br>(2) Efficient Relative Attribute Learning Using Graph Neural Networks, ECCV 2018</td>
+                <td>Students</td>
+                <td></td>
+              </tr>
+			  
+              <tr>
+                <td>14</td>
+                <td>11/16 (T)</td>
+                <td>Self-supervised Learning</td>
+                <td>An Overview of Self-Supervised Learning (Lecture)</td>
+                <td>Instructor</td>
+                <td><b>Paper discussions on Zoom, for papers presented in Week 13.</b></td>
+              </tr>
+			  
+              <tr>
+                <td></td>
+                <td>11/17 (W)</td>
+                <td>Self-supervised Learning</td>
+                <td>(1) BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding<br>(2) XLNet: Generalized Autoregressive Pretraining for Language Understanding<br>(3) RoBERTa: A Robustly Optimized BERT Pretraining Approach</td>
+                <td>Students</td>
+                <td><b>Review-6 Due</b> for ONE paper on self-supervised learning.</td>
+              </tr>
+			  
+              <tr>
+                <td></td>
+                <td>11/18 (R)</td>
+                <td>Self-supervised Learning</td>
+                <td>(1) Momentum Contrast for Unsupervised Visual Representation Learning, CVPR 2020<br>(2) A Simple Framework for Contrastive Learning of Visual Representations, ICML 2020</td>
+                <td>Students</td>
+                <td></td>
+              </tr>
+			  
+              <tr>
+                <td>15</td>
+                <td>11/23 (T)</td>
+                <td>Self-supervised Learning</td>
+                <td>(1) ViViT: A Video Vision Transformer<br>(2) VOLO: Vision Outlooker for Visual Recognition</td>
+                <td>Students</td>
+                <td><b>Paper discussions on Zoom, for papers presented in Week 14.</b></td>
+              </tr>
+			  
+              <tr>
+                <td>16</td>
+                <td>11/30 (T)</td>
+                <td>Course Project--Final Presentation (I)</td>
+                <td></td>
+                <td>Students</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>12/01 (W)</td>
+                <td>Course Project--Final Presentation (II)</td>
+                <td></td>
+                <td>Students</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>12/02 (R)</td>
+                <td>
+                   No Class
+                </td>
+                <td></td>
+                <td>Students</td>
+                <td></td>
+              </tr>
+			  
+              <tr>
+                <td>17</td>
+                <td>12/07 (R)</td>
+                <td>Course Project--Final Presentation (III)</td>
+                <td></td>
+                <td>Students</td>
+                <td>Project Report Due</td>
+              </tr>
+              <tr>
+                <td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+  </div>
+  </div>
+  
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+
+</html>

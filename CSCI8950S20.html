@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+  <link rel="stylesheet" href="https://v40.pingendo.com/assets/4.0.0/default/theme.css" type="text/css"> </head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Sheng Li's Homepage</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+		  <li class="nav-item">
+            <a class="nav-link" href="news.html">News</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="publications.html">Publications</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="teaching.html">Teaching</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="activities.html">Activities</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="py-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-10">
+          <h3><strong>CSCI/ARTI 8950: Machine Learning 
+            (Spring 2020) </strong></h3>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="py-0">
+    <div class="container">
+	<div class="row">
+		<font size="4">
+		<table class="table">
+            <tbody>
+              <tr>
+                <td><strong>Instructor</strong></td>
+                <td>Sheng Li <br>
+                E-mail: sheng.li@uga.edu</td>
+              </tr>
+			  <tr>
+                <td><strong>Time and Location of Lecture</strong></td>
+                <td>M: 2:30 pm - 3:20 pm Boyd GSRC 208<br>
+TR: 2:00 pm - 3:15 pm Boyd GSRC 208</td>
+              </tr>
+			  <tr>
+                <td><strong>Office Hours and Location</strong></td>
+                <td>Thursday: 1 pm - 2 pm or by an email appointment.<br>
+Boyd GSRC 804</td>
+              </tr>
+			  
+				<tr><td></td><td></td></tr>
+			</tbody>
+		</table>
+		</font>
+      </div>
+	  <div class="row">
+		<div class="col-md-12">
+          <p class="lead"> <strong>Course Description </strong> </p>
+        </div>
+	  </div>
+      <div class="row">
+        <div class="col-md-12">
+          <p>This course provides students with an in-depth introduction to machine learning theory, models and applications. The course covers classical machine learning algorithms for clustering and classification, and also discusses some emerging issues in machine learning such as fairness.<br>
+            <br>
+            Please refer to the <a href="Docs/CSCI_8950_ML_Syllabus.pdf" class="text-danger" target="_blank"> <strong>course syllabus</strong> </a> for more details. </p>
+        </div>
+      </div>
+	  <div class="row">
+		<div class="col-md-12">
+          <p class="lead"> <strong>Recommended Background </strong> </p>
+        </div>
+	  </div>
+      <div class="row">
+        <div class="col-md-12">
+          <p>CSCI 6380 (Data Mining), CSCI 6550 (Artificial Intelligence), CSCI 6560 Evolutionary Computation, or Permission of Department. </p>
+        </div>
+      </div>
+	  <div class="row">
+        <div class="col-md-12">
+          <p class="lead"> <strong>Grading</strong> </p>
+        </div>
+      </div>
+	  <div class="row">
+        <div class="col-md-12">
+          <table width="969" height="231" border="1">
+            <tbody>
+              <tr>
+                <th scope="col">Section</th>
+                <th scope="col">Portion</th>
+                <th scope="col">Description</th>
+              </tr>
+		      <tr>
+                <td>Homework</td>
+                <td>10%</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>Paper Review</td>
+                <td>10%</td>
+                <td>Write comprehensive paper reviews for assigned papers</td>
+              </tr>
+              <tr>
+                <td>Paper Presentation</td>
+                <td>10%</td>
+                <td>Present assigned papers and lead discussion</td>
+              </tr>
+			  <tr>
+                <td>Midterm Exam</td>
+                <td>30%</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>Team Project</td>
+                <td>35%</td>
+                <td>Project proposal (10%); Progress review (5%); Final presentation (10%) and report (10%)</td>
+              </tr>
+              <tr>
+                <td>In-class Participation</td>
+                <td>5%</td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+			<p></p>
+		<p><strong>Grade Conversion Table</strong>: </p>
+		  <table class="table">
+		      <thead>
+              <tr>
+                <th>Letter Grade</th>
+                <th>A</th>
+				  <th>A-</th>
+				  <th>B+</th>
+				  <th>B</th>
+				  <th>B-</th>
+				  <th>C+</th>
+				  <th>C</th>
+				  <th>C-</th>
+				  <th>D+</th>
+				  <th>D</th>
+				  <th>D-</th>
+				  <th>F</th>
+              </tr>
+			  </thead>
+			  <tbody>
+			  <tr>
+                <td>Range</td>
+                <td>[93,100]</td>
+				<td>[90,92]</td>
+				  <td>[87,89]</td>
+				  <td>[83,86]</td>
+				  <td>[80,82]</td>
+				  <td>[77,79]</td>
+				  <td>[73,76]</td>
+				  <td>[70,72]</td>
+				  <td>[67,69]</td>
+				  <td>[63,66]</td>
+				  <td>[60,62]</td>
+				  <td>[0,59]</td>
+              </tr>
+			  <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+			</tbody>
+		</table>
+        </div>
+      </div>
+	  <div class="row">
+        <div class="col-md-12">
+          <p class="lead">
+            <b>Academic Honesty</b>
+          </p>
+        </div>
+      </div>
+	  <div class="row">
+        <div class="col-md-12">
+          <p class="">We will strictly follow <a href="https://honesty.uga.edu/Academic-Honesty-Policy/Introduction/" class="text-danger" target="_blank">UGA’s Academic Honesty Policy</a>. Dishonest behavior will not be tolerated and may result into failing the course. Please contact the instructor if you have any concerns regarding this issue.</p>
+        </div>
+      </div>
+	  <div class="row">
+        <div class="col-md-12">
+          <p class="lead">
+            <b>Paper Review and Presentation</b>
+          </p>
+        </div>
+      </div>
+	  <div class="row">
+        <div class="col-md-12">
+		  <p class=""><b>Note:</b> Please <a href="https://docs.google.com/spreadsheets/d/1FC3aa18lh9ZuRyJAjXThxTEgDg57X4dKyacWTrNv-ko/edit?usp=sharing" class="text-danger" target="_blank">sign up</a> for paper presentations (Deadline: 11:59pm, January 17, 2020)</p>
+          <p class=""><b>Paper Review:</b> Students will be required to review <b>5 papers</b> over the semester and submit the review to eLC by <b>11:59PM of the due date</b> shown in class schedule below. The reviewed paper should be chosen from the papers that will be presented in the following classes (Refer to class schedule for more details). The reviewed papers should <b>not</b> contain the papers you’re going to present in the class. The review should summarize the main idea and contributions of the paper, describe the major experimental results, and discuss the strengths and weaknesses of the paper. The students are also encouraged to check the follow-up works on the topic of the assigned paper (e.g., search the latest papers that cite the assigned paper), summarize the state-of-the-art methods and results, and discuss possible future research directions.</p>
+          <p class="">
+            <b>Paper Presentation</b>:&nbsp;Each student will be required to present <b>one</b> research paper over the semester. Each presenter should prepare slides for a <b>25 minutes talk</b> on the paper.
+            <u>Slides for the talk must be emailed to the instructor by midnight (12:00am) before the class</u>. The talk should clearly address the following points: (1) motivation and problem statement; (2) related work; (3) methodology; (4) experiments; (4) conclusions; and (5) at least 3 questions for discussion. The presenter will need to lead another <b>10 minutes discussion</b> during or after the talk. The presenter should prepare discussion questions that lead to a deeper analysis of the paper’s content, strengths, weaknesses, and future works.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <p class="lead">
+            <b>Class Schedule (Tentative)</b>
+          </p>
+		</div>
+      </div>
+	  <div class="row">
+        <div class="col-md-12">
+          <table class="table">
+            <thead>
+              <tr>
+                <th class="">Week</th>
+                <th class="">Date</th>
+                <th>Topic</th>
+                <th>Readings</th>
+                <th>Presenters</th>
+                <th>Notes</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>01/07 (T)</td>
+                <td>Course Overview</td>
+                <td>N/A</td>
+                <td>Instructor</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>01/09 (R)</td>
+                <td>An Overview of Machine Learning</td>
+                <td></td>
+                <td>Instructor</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>01/13 (M)</td>
+                <td>Decision Trees</td>
+                <td>CIML 1</td>
+                <td>Instructor</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td> </td>
+                <td>01/14 (T)</td>
+                <td>Limits of Learning</td>
+                <td>CIML 2</td>
+                <td>Instructor</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>01/16 (R)</td>
+                <td>Geometry and Nearest Neighbors</td>
+                <td>CIML 3-3.3</td>
+                <td>Instructor</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>01/20 (M)</td>
+                <td class="text-danger">No Class; Holiday</td>
+                <td></td>
+                <td></td>
+                <td><b>HW1 OUT</b></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>01/21 (T)</td>
+                <td>Clustering</td>
+                <td>CIML 3.4-3.5</td>
+                <td>Instructor</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>01/23 (R)</td>
+                <td>Perceptron</td>
+                <td>CIML 4</td>
+                <td>Instructor</td>
+                <td> </td>
+              </tr>
+              <tr>
+                <td>4</td>
+                <td>01/27 (M)</td>
+                <td>Multiclass Classification</td>
+                <td>CIML 6</td>
+                <td>Instructor</td>
+                <td><b>HW1 DUE</b> (11:59 PM)</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>01/28 (T)</td>
+                <td>Bias and Fairness</td>
+                <td>CIML 8</td>
+                <td>Instructor</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>01/30 (R)</td>
+                <td>Linear Models</td>
+                <td>CIML 7-7.4</td>
+                <td>Instructor</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>5</td>
+                <td>02/03 (M)</td>
+                <td>Linear Models: Gradient Descent</td>
+                <td>CIML 7.4-7.7</td>
+	            <td>Instructor</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>02/04 (T)</td>
+                <td>Probabilistic Models (I)</td>
+                <td>CIML 9-9.5</td>
+                <td>Instructor</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>02/06 (R)</td>
+                <td>Probabilistic Models (II)</td>
+                <td>CIML 9.6-9.7</td>
+	            <td>Instructor</td>
+                <td><b>HW2 OUT</b><br><b>Project Proposal Due</b>: 02/07</td>
+              </tr>
+              <tr>
+                <td>6</td>
+                <td>02/10 (M)</td>
+                <td>Project Proposal Presentation (I)</td>
+                <td></td>
+                <td>Students</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>02/11 (T)</td>
+                <td>Project Proposal Presentation (II)</td>
+                <td></td>
+                <td>Students</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>02/13 (R)</td>
+                <td>Project Proposal Presentation (III)</td>
+                <td></td>
+                <td>Students</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>7</td>
+                <td>02/17 (M)</td>
+                <td>Neural Networks (I)</td>
+                <td>CIML 10-10.3</td>
+                <td>Instructor</td>
+                <td><b>HW2 DUE</b> (11:59 PM)</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>02/18 (T)</td>
+                <td>Neural Networks (II)</td>
+                <td>CIML 10.4-10.6</td>
+                <td>Instructor</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>02/20 (R)</td>
+                <td>Midterm Review</td>
+                <td></td>
+                <td>Instructor</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>8</td>
+                <td>02/24 (M)</td>
+                <td>Deep Learning (I)</td>
+                <td></td>
+                <td>Instructor</td>
+                <td><b>Review-1 Due</b> for papers: 03/02, 03/03, 03/05</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>02/25 (T)</td>
+                <td>Deep Learning (II)</td>
+                <td> </td>
+                <td>Instructor</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>02/27 (R)</td>
+                <td><b>Midterm</b></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>9</td>
+                <td>03/02 (M)</td>
+                <td>Paper Presentation: Linear Models</td>
+                <td></td>
+                <td>Students</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>03/03 (T)</td>
+                <td>Paper Presentation: Linear Models</td>
+                <td></td>
+                <td>Students</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>03/05 (R)</td>
+                <td>Paper Presentation: Linear Models</td>
+                <td></td>
+                <td>Students</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>10</td>
+                <td>03/09 (M)</td>
+                <td class="text-danger">No Class; Spring Break</td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>03/10 (T)</td>
+                <td class="text-danger">No Class; Spring Break</td>
+                <td> </td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>03/12 (R)</td>
+                <td class="text-danger">No Class; Spring Break</td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>11</td>
+                <td>03/16 (M)</td>
+                <td>Paper Presentation: Clustering</td>
+                <td></td>
+                <td>Students</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>03/17 (T)</td>
+                <td>Paper Presentation: Clustering</td>
+                <td></td>
+                <td>Students</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>03/19 (R)</td>
+                <td>Paper Presentation: Clustering</td>
+                <td></td>
+                <td>Students</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>12</td>
+                <td>03/23 (M)</td>
+                <td>Paper Presentation: Probabilistic Models</td>
+                <td> </td>
+                <td>Students</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>03/24 (T)</td>
+                <td>Project Progress Update</td>
+                <td> </td>
+                <td>Students</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>03/26 (R)</td>
+                <td>Paper Presentation: Probabilistic Models</td>
+                <td></td>
+                <td>Students</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>13</td>
+                <td>03/30 (M)</td>
+                <td>Paper Presentation: Neural Networks</td>
+                <td></td>
+                <td>Students</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>03/31 (T)</td>
+                <td>Paper Presentation: Neural Networks</td>
+                <td></td>
+                <td>Students</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>04/02 (R)</td>
+                <td>Paper Presentation: Neural Networks</td>
+                <td></td>
+                <td>Students</td>
+                <td><b>Project Update Due (by email)</b>: 04/03</td>
+              </tr>
+              <tr>
+                <td>14</td>
+                <td>04/06 (M)</td>
+                <td>Paper Presentation: Fairness in ML</td>
+                <td></td>
+                <td>Students</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>04/07 (T)</td>
+                <td>Paper Presentation: Fairness in ML</td>
+                <td></td>
+                <td>Students</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>04/09 (R)</td>
+                <td>Paper Presentation: Fairness in ML</td>
+                <td></td>
+                <td>Students</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>15</td>
+                <td>04/13 (M)</td>
+                <td>Paper Presentation: Interpretable ML</td>
+                <td></td>
+                <td>Students</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>04/14 (T)</td>
+                <td>Paper Presentation: Interpretable ML</td>
+                <td></td>
+                <td>Students</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>04/16 (R)</td>
+                <td>Paper Presentation: Interpretable ML</td>
+                <td></td>
+                <td>Students</td>
+                <td><b>Final Project Slides Due:</b> 04/17</td>
+              </tr>
+              <tr>
+                <td>16</td>
+                <td>04/20 (M)</td>
+                <td>Course Project--Final Presentation (I)</td>
+                <td></td>
+                <td>Students</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>04/21 (T)</td>
+                <td>Course Project--Final Presentation (II)</td>
+                <td></td>
+                <td>Students</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>04/23 (R)</td>
+                <td>Course Project--Final Presentation (III)</td>
+                <td></td>
+                <td>Students</td>
+                <td><b>Paper Review Due</b>: 04/27</td>
+              </tr>
+              <tr>
+                <td>17</td>
+                <td>04/27 (M)</td>
+                <td>Course Review and Discussion</td>
+                <td></td>
+                <td></td>
+                <td><b>Final Report Due</b>: 04/28</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+
+</html>
